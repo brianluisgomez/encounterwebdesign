@@ -269,10 +269,10 @@ main#home h1 {
   display: block;
   text-align: center;
   justify-items: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 .about-icon a {
-  padding: 3rem;
+  padding: 2rem;
   transition: all 0.5s ease-out;
 }
 .about-icon a:hover {
@@ -560,10 +560,12 @@ main#work {
   main #home h1 {
     margin-top: 10vh;
   }
+
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
   }
+
   .projects {
     grid-template-columns: 1fr;
   }
