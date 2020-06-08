@@ -89,7 +89,9 @@
 
     <script src="js/main.js"></script>
     <script>
-      toggleMenu();
+      if (window.matchMedia('(min-width: 768px)').matches) {
+        toggleMenu();
+      }
     </script>
   </body>
 </html>
