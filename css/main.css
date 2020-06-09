@@ -176,7 +176,7 @@ p.sm-paragraph {
 }
 
 h1.index-heading {
-  line-height: 0.5;
+  line-height: 1;
 }
 
 h2.index-heading {
@@ -185,7 +185,7 @@ h2.index-heading {
 }
 
 h1.index-heading2 {
-  line-height: 0.5;
+  line-height: 1;
 }
 
 h2.index-heading2 {
