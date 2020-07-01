@@ -146,7 +146,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.4);
+  background: rgba(68, 68, 68, 0.75);
 }
 
 h1,
@@ -424,6 +424,7 @@ input[type='checkbox'] {
 
 main#work {
   align-items: center;
+  justify-content: center;
 }
 
 .projects {
@@ -435,6 +436,11 @@ main#work {
   width: 100%;
   align-items: center;
 }
+
+.projects .item {
+  width: 50%;
+}
+
 .projects img {
   width: 100%;
   border: 3px #fff solid;
@@ -520,6 +526,8 @@ main#work {
     grid-template-columns: 1fr;
     width: 100%;
     align-items: center;
+    justify-items: center;
+    align-content: center;
   }
 }
 
@@ -530,7 +538,7 @@ main#work {
     padding-left: 1rem;
     padding-right: 1rem;
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 90%;
     align-items: center;
   }
 
