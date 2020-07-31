@@ -95,24 +95,12 @@
       <div class="contact-form">
         <form method="POST" data-netlify="true">
         <fieldset>
-        <legend><span class="number">1</span> Contact Info</legend>
-        <input type="text" name="name" placeholder="Your Name *">
-        <input type="text" name="company" placeholder="Your Company *">
+        <legend><span class="number"></span> Contact Form</legend>
+        <input type="text" name="name" placeholder="Your Name *" required>
+        <input type="text" name="company" placeholder="Your Company *" >
         <input type="text" name="phone" placeholder="Your Phone Number *">
-        <input type="email" name="email" placeholder="Your Email *">
-
-        
-        </fieldset>
-      
-        <fieldset>
-      <legend><span class="number">2</span> Prospective Project Questions</legend>
-      <textarea name="description" placeholder="What does your business do? "></textarea>
-      <textarea name="description2" placeholder="Who is your target market/audience? "></textarea>
-      <textarea name="description3" placeholder="Brief description of what you are looking for: "></textarea>  
-
-      <textarea name="description4" placeholder="When would you like the project completed by? "></textarea>
-        
-        <textarea name="questions" placeholder="Please list any questions you may have here: "></textarea>
+        <input type="email" name="email" placeholder="Your Email *" required>
+        <textarea name="questions" placeholder="Please list any questions or comments you may have here: "></textarea>
         <div data-netlify-recaptcha="true"></div>
         </fieldset>
         <input type="submit" value="Submit" />
@@ -122,15 +110,14 @@
 
       <div class="boxes">
        
-          <span class="text-secondary">Email: </span> contact@encounterwebdesign.com
+          <span class="text-secondary">Email: </span> <a href="mailto:contact@encounterwebdesign.com">contact@encounterwebdesign.com</a>
         </div>
     </main>
 
     <footer id="main-footer">
       <h2 class="sm-heading">
         <a href="contact.html">
-          Click
-          <span class="text-secondary">CONTACT</span> or call 919-435-4241 for a
+          Call 919-435-4241 for a
           free consultation!
         </a>
       </h2>
