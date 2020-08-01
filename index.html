@@ -111,6 +111,38 @@
       <h2 class="sm-heading nb-text index-heading2">
         Bringing Your Customers to You
       </h2>
+
+      <div class="text-tertiary">
+        <h2 class="sm-heading">
+          Fill out the form below and we will contact you as soon as possible to
+          discuss options tailored to your needs
+        </h2>
+      </div>
+      <div class="contact-form">
+        <form method="POST" data-netlify="true">
+          <fieldset>
+            <legend><span class="number"></span> Contact Form</legend>
+            <input type="text" name="name" placeholder="Your Name *" required />
+            <input type="text" name="phone" placeholder="Your Phone Number *" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email *"
+              required
+            />
+            <textarea
+              name="project"
+              placeholder="Briefly describe the project here * "
+            ></textarea>
+            <textarea
+              name="questions"
+              placeholder="Questions or Comments "
+            ></textarea>
+            <div data-netlify-recaptcha="true"></div>
+          </fieldset>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </main>
     <footer id="main-footer">
       <h2 class="sm-heading">
